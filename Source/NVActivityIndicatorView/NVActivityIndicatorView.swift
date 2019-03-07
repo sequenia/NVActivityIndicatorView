@@ -263,8 +263,10 @@ public enum NVActivityIndicatorType: Int {
      - returns: Instance of NVActivityIndicatorAnimationCircleStrokeSpin.
      */
     case circleStrokeSpin
+    
+    case ballPulseBGT
 
-    static let allTypes = (blank.rawValue ... circleStrokeSpin.rawValue).map { NVActivityIndicatorType(rawValue: $0)! }
+    static let allTypes = (blank.rawValue ... ballPulseBGT.rawValue).map { NVActivityIndicatorType(rawValue: $0)! }
 
     // swiftlint:disable:next cyclomatic_complexity function_body_length
     func animation() -> NVActivityIndicatorAnimationDelegate {
@@ -335,6 +337,8 @@ public enum NVActivityIndicatorType: Int {
             return NVActivityIndicatorAnimationAudioEqualizer()
         case .circleStrokeSpin:
             return NVActivityIndicatorAnimationCircleStrokeSpin()
+        case .ballPulseBGT:
+            return NVActivityIndicatorAnimationBallPulseBGT()
         }
     }
 }
