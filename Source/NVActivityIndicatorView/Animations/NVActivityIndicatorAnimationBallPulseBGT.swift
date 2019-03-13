@@ -13,8 +13,6 @@ class NVActivityIndicatorAnimationBallPulseBGT: NVActivityIndicatorAnimationDele
         let circlesCount = 5
         
         var beginTimes: [CFTimeInterval] = []
-//        var keyTimes: [CGFloat] = []
-//        var values: [CGFloat] = []
         for i in 0...circlesCount {
             beginTimes.append(CFTimeInterval(i) * 0.12)
         }
@@ -29,9 +27,9 @@ class NVActivityIndicatorAnimationBallPulseBGT: NVActivityIndicatorAnimationDele
         let animation = CAKeyframeAnimation(keyPath: "transform.scale")
         
         // Animation
-        animation.keyTimes = [0, 0.2, 0.4, 0.6, 1]
-        animation.timingFunctions = [timingFunction, timingFunction]
-        animation.values = [1, 0.6, 0.4, 0.2, 0]
+        animation.keyTimes = [0, 0.3, 1]
+        animation.timingFunctions = [timingFunction]
+        animation.values = [1, 0.5, 1]
         animation.duration = duration
         animation.repeatCount = HUGE
         animation.isRemovedOnCompletion = false
