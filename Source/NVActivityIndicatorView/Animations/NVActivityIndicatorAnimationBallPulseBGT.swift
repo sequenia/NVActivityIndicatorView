@@ -27,9 +27,9 @@ class NVActivityIndicatorAnimationBallPulseBGT: NVActivityIndicatorAnimationDele
         let animation = CAKeyframeAnimation(keyPath: "transform.scale")
         
         // Animation
-        animation.keyTimes = [0, 0.3, 1]
+        animation.keyTimes = [0, 0.25, 0.5, 0.75, 1]
         animation.timingFunctions = [timingFunction]
-        animation.values = [1, 0.5, 1]
+        animation.values = [1, 0.75, 0.5, 0.75, 1]
         animation.duration = duration
         animation.repeatCount = HUGE
         animation.isRemovedOnCompletion = false

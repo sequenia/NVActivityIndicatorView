@@ -83,6 +83,7 @@
 		A367103020A1EE7500081069 /* NVActivityIndicatorViewAppExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F88C9DB1F10D0B200869231 /* NVActivityIndicatorViewAppExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A367103820A1EF6A00081069 /* NVActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = A367103220A1EEEC00081069 /* NVActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1A6B661FDE9609008059F3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A52F0DE1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		CF2CAB9D225495DB00547E11 /* NVActivityIndicatorAnimationBallPulseBGT.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2CAB9C225495DB00547E11 /* NVActivityIndicatorAnimationBallPulseBGT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		4A52F0DE1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
 		A367103220A1EEEC00081069 /* NVActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVActivityIndicatorView.h; sourceTree = "<group>"; };
 		A367103320A1EEED00081069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2CAB9C225495DB00547E11 /* NVActivityIndicatorAnimationBallPulseBGT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseBGT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -200,6 +202,7 @@
 				1F0326BE1F0D257700BF3358 /* NVActivityIndicatorAnimationSquareSpin.swift */,
 				1F0326BF1F0D257700BF3358 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
 				4A52F0DE1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				CF2CAB9C225495DB00547E11 /* NVActivityIndicatorAnimationBallPulseBGT.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 1F03268A1F0D24BE00BF3358;
@@ -352,6 +356,7 @@
 				1F0326CA1F0D257700BF3358 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
 				4A52F0DF1FCDBB8C009377B1 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
 				1F88C9D31F10D03E00869231 /* NVActivityIndicatorViewable.swift in Sources */,
+				CF2CAB9D225495DB00547E11 /* NVActivityIndicatorAnimationBallPulseBGT.swift in Sources */,
 				1F0326DE1F0D257700BF3358 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
 				1F0326D91F0D257700BF3358 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
 				1F0326E41F0D257700BF3358 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
